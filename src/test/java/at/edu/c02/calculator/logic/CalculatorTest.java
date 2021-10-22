@@ -89,7 +89,7 @@ public class CalculatorTest {
 		calc.push(10);
 		double result  = calc.perform(Operation.mod);
 
-		assertEquals(4,result,0);
+		assertEquals(3,result,0);
 	}
 
 }
