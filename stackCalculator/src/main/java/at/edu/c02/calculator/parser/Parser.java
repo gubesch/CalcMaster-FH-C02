@@ -81,6 +81,6 @@ public class Parser {
         else if ("%".equals(value))
             return Operation.mod;
 
-        throw new CalculatorException("Unsuppoted Operation");
+        throw new CalculatorException("Unsupported Operation");
     }
 }
